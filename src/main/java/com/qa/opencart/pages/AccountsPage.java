@@ -93,4 +93,8 @@ public class AccountsPage extends BasePage {
 		return new ProductInfoPage(driver);
 	}
 	
+	public void getAccountsPageDetails(){    //some random method for a test
+		System.out.println("getAccountPageDetail");
+	}
+	
 }
