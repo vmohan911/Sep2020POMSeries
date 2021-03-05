@@ -41,7 +41,7 @@ public class LoginPage extends BasePage {
 	
 	@Step("checking forgot pwd link is exist...")
 	public boolean isForgotPasswordLinkExist(){
-		
+		System.out.println("checking forgot password link");
 		return util.doIsDisplayed(forgotpasswordLink);
 		
 	}
